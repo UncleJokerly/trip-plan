@@ -136,6 +136,8 @@
   .b-table td:last-child { text-align:right; font-variant-numeric:tabular-nums; color:#2E2B25; font-weight:600; }
   .b-table tr.total td { border-bottom:none; padding-top:12px; font-size:16px; color:#8A5E14; font-weight:800; }
   .b-note { font-size:13px; color:#A3947D; margin-top:8px; }
+.b-table.sched td:last-child { text-align:left; font-weight:400; color:#4A443B; }
+.b-table.sched td:first-child { white-space:nowrap; font-weight:700; color:#8A5E14; }
 
   /* ---------- 电话 ---------- */
   .contact { display:flex; justify-content:space-between; align-items:center; gap:10px;
@@ -209,13 +211,20 @@
     <div class="wrap">
 
       <div class="card">
-        <h2><span class="icon-bubble b-red">⏰</span>关键时间点 · 别错过</h2>
+        <h2><span class="icon-bubble b-red">⏰</span>关键时间点 · 按日子办</h2>
         <div class="remind"><span class="badge todo">⏰ 尽快</span><div class="txt"><b>订房三连：</b>✅ 正定白玉兰 9.30 → ✅ 大同 10.3 五州帝景 / 10.4 光明佳苑 → ⏳ 台怀镇 10.1–10.3 两晚（<b>十一山顶房最抢手，尽快订</b>）</div></div>
-        <div class="remind"><span class="badge info">📌 待定</span><div class="txt"><b>父母返程票：</b>日期待定（10.8 之后）；12306 提前约15天放票，日期一定马上抢（以 12306 为准）</div></div>
-        <div class="remind"><span class="badge todo">⏰ 9.27</span><div class="txt"><b>天安门广场预约：</b>10.6 参观需在「天安门广场预约参观」小程序预约，免费</div></div>
-        <div class="remind"><span class="badge todo">⏰ 9.29 20:00</span><div class="txt"><b>故宫门票开抢（全场最紧张）：</b>提前7天晚8点放票，抢 10.6 的票；全员身份证号提前录入，秒没</div></div>
-        <div class="remind"><span class="badge info">📌 出发前</span><div class="txt"><b>景区预约：</b>云冈石窟 10.4 场次；毛主席纪念堂 10.6 上午（开放日与预约以官方小程序为准）</div></div>
-        <div class="remind"><span class="badge info">📌 出发前</span><div class="txt"><b>车与证件：</b>车况大检查 + ETC 余额；<b>外地牌照务必提前办进京证</b>（北京交警App）；全员身份证原件（60+ 多数景区免票）</div></div>
+        <table class="b-table sched">
+          <tr><td>9.26 起</td><td>天安门广场预约（10.6 用）：「天安门广场预约参观」小程序，提前1~10天开放，免费</td></tr>
+          <tr><td>9.29 20:00</td><td><b>故宫抢票（10.6，全场最紧张）</b>：提前7天晚8点放票，全员身份证号提前录入，秒没</td></tr>
+          <tr><td>9.29 晚</td><td>国家博物馆 10.6（可选）：免费，提前约7天放票；时间紧就砍或挪 10.7</td></tr>
+          <tr><td>9.30 前后</td><td>五台山 10.1 进山票：「五台山游客服务中心」公众号购/约；60+ 凭身份证免进山门票</td></tr>
+          <tr><td>9.30~10.2</td><td>毛主席纪念堂 10.6 上午场：官方小程序预约（一般提前1~6天放票；周一闭馆，10.6 是周二）</td></tr>
+          <tr><td>10.1~10.4</td><td><b>进京证</b>：「北京交警」App 提前1~4天办，生效日选 10.5，一次管7天；出发前先在 App 注册填好车辆信息</td></tr>
+          <tr><td>10.2 前</td><td>云冈石窟 10.4 下午票：「云冈石窟」公众号购票，节假日限流</td></tr>
+          <tr><td>定了就办</td><td>父母返程票（12306 提前约15天）；10.7 医院挂号；短期自驾意外险</td></tr>
+        </table>
+        <div class="b-note">预约全部实名制、一证一票，身份证人人带好；各平台放票/开放时间以官方为准。</div>
+        <div class="remind"><span class="badge info">📌 出发前</span><div class="txt"><b>车与证件：</b>车况大检查 + ETC 余额；<b>外地牌照务必办进京证</b>（北京交警App）；全员身份证原件（60+ 多数景区免票）</div></div>
       </div>
 
       <div class="card">
